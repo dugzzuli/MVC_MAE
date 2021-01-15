@@ -1,0 +1,12 @@
+max_acc=0.8519 & max_nmi=0.9158
+L=0.0010 & beta_i=1.0000 & alpha_i=0.0010 & gama_i=100.0000 & acc=  0.8744 & nmi=0.9239
+max_acc=0.8585 & max_nmi=0.9189
+L=0.0100 & beta_i=1.0000 & alpha_i=0.0010 & gama_i=100.0000 & acc=  0.8800 & nmi=0.9230
+max_acc=0.8746 & max_nmi=0.9150
+L=0.1000 & beta_i=1.0000 & alpha_i=0.0010 & gama_i=100.0000 & acc=  0.8855 & nmi=0.9235
+max_acc=0.8519 & max_nmi=0.9129
+L=1.0000 & beta_i=1.0000 & alpha_i=0.0010 & gama_i=100.0000 & acc=  0.8244 & nmi=0.9084
+max_acc=0.8642 & max_nmi=0.9146
+L=10.0000 & beta_i=1.0000 & alpha_i=0.0010 & gama_i=100.0000 & acc= 0.8281 & nmi=0.9056
+max_acc=0.8332 & max_nmi=0.9029
+L=100.0000 & beta_i=1.0000 & alpha_i=0.0010 & gama_i=100.0000 & acc=0.6334 & nmi=0.8221

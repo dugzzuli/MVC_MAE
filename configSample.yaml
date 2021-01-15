@@ -1,0 +1,117 @@
+resultDirName: 'DANESample'
+
+movies617:
+  layers:    [512,128,16]
+  View_num: 2
+  ft_times:   500
+  beta_W: [10,10,10]
+  L: [0.001,0.01,0.1,1,10,100]
+  alpha: [0.001,0.01,0.1,1,10,100]
+  gama: [0.001,0.01,0.1,1,10,100]
+  batch_size: 617
+  pretrain: False
+  learning_rate: [0.0001] #[0.001,0.0001,0.00001,0.000001,0.0000001]
+  sent_outputs_norm: True
+
+
+cora:
+  layers:    [512,128,16]
+  View_num: 2
+  ft_times:   500
+  beta_W: [50,60]
+  L: [0.1]
+  alpha: [0.1]
+  gama: [100]
+  batch_size: 256
+  pretrain: False
+  learning_rate: [0.000001] #[0.0001] #
+  sent_outputs_norm: True
+
+
+BBCSport:
+  loadW: False
+  layers:    [256,64,16]
+  View_num: 2
+  ft_times:  1000
+  beta_W: [10,10,10]
+  L: [0.1]
+  alpha: [0.001]
+  gama: [100]
+  batch_size: 256
+  pretrain: False
+  learning_rate: [0.00001] #[0.0001] #
+  sent_outputs_norm: True
+
+
+
+
+Digits76240:
+  layers:    [512,128,32]
+  View_num: 2
+  ft_times:  100
+  beta_W: [10,10,10]
+  L: [0.1]
+  alpha: [0.001]
+  gama: [100]
+  batch_size: 2000
+  pretrain: False
+  learning_rate: [0.000001] #[0.0001] #
+  sent_outputs_norm: False
+
+100leaves:
+  loadW: True
+  layers:    [500,100]
+  View_num: 3
+  ft_times:  1000
+  beta_W: [0,1,5,10,20,30,40,50,60,70,80,90,100]
+  L: [0.1]
+  alpha: [0.001]
+  gama: [100]
+  batch_size: 1600
+  pretrain: False
+  learning_rate: [0.000001] #[0.0001] #
+  sent_outputs_norm: True
+
+
+NUSWIDEOBJ:
+  loadW: True
+  layers: [ 512,128,32 ]
+  View_num: 5
+  ft_times: 100
+  beta_W: [0,1,5,10,20,30,40,50,60,70,80,90,100]
+  L: [0.1]
+  alpha:  [0.001]
+  gama:  [100]
+  batch_size: 256
+  pretrain: True
+  learning_rate: [ 0.00001 ] #[0.0001] #
+  sent_outputs_norm: True
+
+
+Caltech101-all:
+  loadW: False
+  layers:    [512, 128, 32]
+  View_num: 6
+  ft_times: 500
+  beta_W: [0,1,10]
+  L: [0.1]
+  alpha: [0.001]
+  gama: [100]
+  batch_size: 1000
+  pretrain: False
+  learning_rate: [ 0.0001 ] #[0.0001] #
+  sent_outputs_norm: True
+
+ALOI_100:
+  loadW: True
+  layers:    [500,200,100] #[500,100]
+  View_num: 4
+  ft_times: 1000
+  beta_W: [0,1,5,10,20,30,40,50,60,70,80,90,100]
+  L: [ 0.1 ]
+  alpha: [ 0.001 ]
+  gama: [ 100 ]
+  batch_size: 300
+  pretrain: False
+  learning_rate: [ 0.0001 ] #[0.0001] #
+  sent_outputs_norm: True
